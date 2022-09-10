@@ -1,0 +1,17 @@
+.container{
+    height: 500px;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.button{
+    position: relative;
+    left: 20%;
+}
+
+
+

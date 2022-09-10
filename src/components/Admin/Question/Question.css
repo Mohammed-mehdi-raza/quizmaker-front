@@ -1,0 +1,35 @@
+.container{
+    margin: 5px;
+    padding:5px; 
+    display: flex;
+    height: 380px;
+}
+
+.card{
+    padding: 10px;
+    margin:10px;
+    height: 45vh;
+    width:80vw;
+    display: flex;
+}
+
+.top{
+    position: relative;
+    left:40%;
+}
+
+.que{
+    margin: 5px;
+    padding: 5px;
+}
+
+.options{
+    position: relative;
+    top:20%;
+}
+
+.last{
+    position: relative;
+    top:40%;
+    left: 5%;
+}
