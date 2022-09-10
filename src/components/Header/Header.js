@@ -26,7 +26,7 @@ function Header(){
             </Typography>
             {
                 val?
-                <Button variant="contained" href="http://localhost:5000/logout" onClick={click} style={{"position":"relative","left":"70%"}}>Logout</Button>
+                <Button variant="contained" href="https://quiz-maker12.herokuapp.com/logout" onClick={click} style={{"position":"relative","left":"70%"}}>Logout</Button>
                 :
                 <></>
             }
