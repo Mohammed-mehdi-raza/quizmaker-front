@@ -68,46 +68,35 @@ function Admin(){
             <Dialog open={open} onClose={handleClose}>
                 <DialogTitle>SAVE TEST</DialogTitle>
                 <DialogContent>
-                <DialogContentText>
-                    Enter the name of test
-                </DialogContentText>
-                <TextField
-                    autoFocus
-                    margin="dense"
-                    id="name"
-                    label="name"
-                    type="text"
-                    value={name}
-                    fullWidth
-                    variant="standard"
-                    onChange={handleChange}
-                />
+                    <DialogContentText>
+                        Enter the name of test
+                    </DialogContentText>
+                    <TextField
+                        autoFocus
+                        margin="dense"
+                        id="name"
+                        label="name"
+                        type="text"
+                        value={name}
+                        fullWidth
+                        variant="standard"
+                        onChange={handleChange}
+                    />
                 </DialogContent>
                 <DialogActions>
-                <Button onClick={handleClose}>Cancel</Button>
-                <Button onClick={save}>save</Button>
+                    <Button onClick={handleClose}>Cancel</Button>
+                    <Button onClick={save}>save</Button>
                 </DialogActions>
             </Dialog>
             <Dialog open={s} onClose={last}>
                 <DialogTitle>SAVE TEST</DialogTitle>
                 <DialogContent>
-                <DialogContentText>
-                    Test has been successfully saved
-                </DialogContentText>
-                <TextField
-                    autoFocus
-                    margin="dense"
-                    id="name"
-                    label="name"
-                    type="text"
-                    value={name}
-                    fullWidth
-                    variant="standard"
-                    onChange={handleChange}
-                />
+                    <DialogContentText>
+                        Test has been successfully saved
+                    </DialogContentText>
                 </DialogContent>
                 <DialogActions>
-                <Button onClick={last}>continue</Button>
+                    <Button onClick={last}>continue</Button>
                 </DialogActions>
             </Dialog>
         </>
